@@ -21,6 +21,7 @@ struct ContentView: View {
                         .font(.largeTitle)
                     
                     HStack {
+                        // Start Button
                         Button {
                         } label: {
                             Text("スタート")
@@ -28,6 +29,17 @@ struct ContentView: View {
                                 .foregroundColor(Color.white)
                                 .frame(width: 140, height: 140)
                                 .background(Color("startColor"))
+                                .clipShape(Circle())
+                        }
+                        
+                        // Stop Button
+                        Button {
+                        } label: {
+                            Text("ストップ")
+                                .font(.title)
+                                .foregroundColor(Color.white)
+                                .frame(width: 140, height: 140)
+                                .background(Color("stopColor"))
                                 .clipShape(Circle())
                         }
                     }
