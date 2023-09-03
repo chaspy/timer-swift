@@ -11,6 +11,7 @@
 		2BA21C8E2AA44B2600303D6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA21C8D2AA44B2600303D6E /* ContentView.swift */; };
 		2BA21C902AA44B2700303D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA21C8F2AA44B2700303D6E /* Assets.xcassets */; };
 		2BA21C942AA44B2700303D6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA21C932AA44B2700303D6E /* Preview Assets.xcassets */; };
+		2BA21C9B2AA44BC100303D6E /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA21C9A2AA44BC100303D6E /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		2BA21C8F2AA44B2700303D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BA21C912AA44B2700303D6E /* timer_swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = timer_swift.entitlements; sourceTree = "<group>"; };
 		2BA21C932AA44B2700303D6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BA21C9A2AA44BC100303D6E /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				2BA21C8B2AA44B2600303D6E /* timer_swiftApp.swift */,
+				2BA21C9A2AA44BC100303D6E /* SettingView.swift */,
 				2BA21C8D2AA44B2600303D6E /* ContentView.swift */,
 				2BA21C8F2AA44B2700303D6E /* Assets.xcassets */,
 				2BA21C912AA44B2700303D6E /* timer_swift.entitlements */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BA21C9B2AA44BC100303D6E /* SettingView.swift in Sources */,
 				2BA21C8E2AA44B2600303D6E /* ContentView.swift in Sources */,
 				2BA21C8C2AA44B2600303D6E /* timer_swiftApp.swift in Sources */,
 			);
