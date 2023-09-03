@@ -10,8 +10,16 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack{
-            VStack {
-                Text("タイマー画面")
+            ZStack {
+                Image("backgroundTimer")
+                    .resizable()
+                    .ignoresSafeArea()
+                    .scaledToFill()
+                
+                VStack(spacing: 30.0){
+                    Text("残り10秒")
+                        .font(.largeTitle)
+                }
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing){
