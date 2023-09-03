@@ -19,24 +19,36 @@ struct ContentView: View {
                 VStack(spacing: 30.0){
                     Text("残り10秒")
                         .font(.largeTitle)
-                }
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing){
-                    NavigationLink {
-                        SettingView()
-                    } label: {
-                        Text(" 秒数設定")
                     
+                    HStack {
+                        Button {
+                        } label: {
+                            Text("スタート")
+                                .font(.title)
+                                .foregroundColor(Color.white)
+                                .frame(width: 140, height: 140)
+                                .background(Color("startColor"))
+                                .clipShape(Circle())
+                        }
+                    }
+                }
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarTrailing){
+                        NavigationLink {
+                            SettingView()
+                        } label: {
+                            Text(" 秒数設定")
+                            
+                        }
                     }
                 }
             }
         }
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }
